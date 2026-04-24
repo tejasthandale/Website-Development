@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyIntroduction</title>
+</head>
+<body>
+    Hi my name is <mark>Tejas Thandale</mark><br>
+    I'm <i>14 years old</i><br>
+    My favorite sport is <b>Basketball</b><br>
+    One bad hobby i want to delete is <del>Watching Instagram reels</del><br>
+    O<sub>2</sub> necessary fro humans to breathe
+</body>
+</html>
