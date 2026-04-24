@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrialFormatting</title>
+</head>
+<body>
+    <b>This content is in bold</b><br>
+    <i>This is italized</i><br>
+    <mark>This is highlighted</mark><br>
+    <small>This is small in size</small><br>
+    <del>This is deleted</del><br>
+    <sub>This is subscript</sub><br>
+    <sup>This is superscript</sup><br>
+    <q>You miss 100 percent of the shots you don't take.</q>
+</body>
+</html>
