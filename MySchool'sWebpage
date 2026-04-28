@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My School's Webpage</title>
+</head>
+<body>
+    <h1>Memorial Highschool</h1><br>
+    <h2><mark>Address</mark></h2>
+    <p><i>12300 Frisco Street</i></p><br>
+    <h3><mark>Total # of Students</mark></h2>
+    <p>There's about <b>1,464</b> students attending this school.</p><br>
+    <h3><mark>Courses Offered</mark></h3>
+    <p>The courses offered are <b>core classes, AP courses, electives, CTE courses, and athletics</b>.</p><br>
+    <h3><mark>Educational Board</mark></h3>
+    <p><i>Memorial Highschool</i> is apart of the <b>Frisco Independent School District</b>.</p>
+</body>
+</html>
