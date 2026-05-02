@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <h1>Table</h1>
+   <table border="5" style="background-color: rgb(210, 76, 55);"> 
+    <tr>
+        <th>Player</th>
+        <th>Club</th>
+        <th>Country</th>
+    </tr>
+    <tr>
+        <td>Cristiano Ronaldo</td>
+        <td>Real Madrid</td>
+        <td>Portugal</td>
+    </tr>
+    <tr>
+        <td>Lionel Messi</td>
+        <td>FC Barcelona</td>
+        <td>Argentina</td>
+    </tr>
+    <tr>
+        <td>Kylian Mbappe</td>
+        <td>PSG</td>
+        <td>France</td>
+    </tr>
+    <tr>
+        <td>Neymar jr</td>
+        <td>PSG</td>
+        <td>Brazil</td>
+    </tr>
+   </table> 
+
+</body>
+</html>
