@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Types of Lists</title>
+</head>
+<body>
+    <h1>Ordered List</h1>
+    <ol>
+        <li>Ferrari</li>
+        <li>Mustang 1969</li>
+        <li>Mini Cooper</li>
+        <li>Tesla</li>
+    </ol>
+    <h1>Unordered List</h1>
+    <ul>
+        <li>Ferrari</li>
+        <li>Mustang 1969</li>
+        <li>Mini Cooper</li>
+        <li>Tesla</li>
+    </ul>
+    <h1>Description List</h1>
+    <dl>
+        <dt>Hot Coffee:</dt>
+        <dd>A hot beverage made from roasted coffee beans</dd><br>
+        <dt>Cold Coffee:</dt>
+        <dd>A chill version fo coffee</dd>
+    </dl>
+</body>
+</html>
