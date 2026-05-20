@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids Health Guide</title>
+</head>
+<body>
+    <header>
+<h1>&#10084; KidsCare &#8212; Your Health Guide</h1>
+<nav>
+    <a href="#health">Stay Healthy</a><br>
+    <a href="#tips">Quick Tips</a><br>
+    <a href="#media">Watch &amp; Learn</a>
+</nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h2>&#128170; Why Your Body Needs Exercise</h2>
+                <p>
+                    You should contain some exersise in you day. Having a healthy lifestyle will benefit you in the future.
+            
+                </p>
+                <p>
+                    You should go to the gym at least 4 times a week. Make sure you have proper sleep and meals.
+                </p>
+            </article>
+            <figure>
+                <img src="Astronaut Image.webp" alt="Astronaut in Space" width="500" height="500">
+                <figcaption>
+                    Astronaut Moving Ahead!
+                </figcaption>
+        
+            </figure>
+        </section>
+        <aside> 
+            <h3>&#9728; Quick Health Tips</h3>
+            <ul>
+                <li>&#127822; Eat 5 fruits and veggies everyday</li>
+                <li>&#128167; Drink 8 glasses of water daily</li>
+                <li>&#128564; Sleep 9 to 11 hours every night</li>
+                <li>&#127939; Move your body for 60 minutes</li>
+            </ul>
+        </aside>
+
+    </main>
+    <footer>
+        <p>Copyright &#169; 2024 KidsCare &#124; Built by a future web developer &#128512;</p>
+    </footer>
+</body>
+</html>
