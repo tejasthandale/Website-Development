@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Dream School Timetable</title>
+</head>
+<body>
+    <h1>School Schedule</h1>
+    <a href="https://schools.friscoisd.org/">School Webpage</a>
+    <table border="5" style="background-color: yellow;">
+<tr>
+    <th>Routine</th>
+    <th>Features</th>
+    <th>Subject Descriptions</th>
+</tr>
+<tr>
+    <td>
+        <ol>
+            
+            <li>Period 1-8:00 AM</li>
+            <li>Period 2-8:55 AM</li>
+            <li>Period 3-9:50 AM</li>
+            <li>Period 4-10:45 AM</li>
+            <li>Dismissal-11:50 AM</li>
+        </ol>
+    </td>
+    <td>
+        <ul>
+            <li>Later school start times</li>
+            <li>Flexible seating classrooms</li>
+            <li>More electives and clubs</li>
+            <li>VR learning rooms</li>
+        </ul>
+    </td>
+    <td>
+<dl>
+    <dt>Math</dt>
+    <dd>Learn problem solving</dd>
+    <dt>Science</dt>
+    <dd>Hands on experiments</dd>
+    <dt>English</dt>
+    <dd>Reading and writing</dd>
+</dl>
+    </td>
+</tr>
+    </table>
+</body>
+</html>
