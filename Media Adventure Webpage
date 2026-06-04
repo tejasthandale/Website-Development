@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Adventure Webpage</title>
+</head>
+<body>
+    <h1>Media Adventure Webpage</h1>
+    <p>This webpage will be about Soccer.</p>
+    <hr>
+    <h2>Famous Players</h2>
+    <figure>
+        <img src="Iconic Ronaldo.webp" alt="Cristiano Ronaldo Image" >
+        <figcaption>Cristiano Ronaldo</figcaption>
+        <img src="Iconic Messi.webp" alt="Lionel Messi Image" width="250">
+        <figcaption>Lionel Messi</figcaption>
+        <img src="Iconic Neymar.webp" alt="Neymar Image" width="250">
+        <figcaption>Neymar jr.</figcaption>
+    </figure>
+    <hr>
+    <h2>The Game Experience</h2>
+    <video src="14141-254487749_medium.mp4" width="500" controls loop poster="soccer thumbnail.png">Soccer Video</video>
+    <audio src="GoalScored.mp3" controls loop>Goal Scored</audio>
+    <iframe src="https://scratch.mit.edu/projects/26711272/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen>Soccer Game</iframe>
+    
+
+</body>
+</html>
