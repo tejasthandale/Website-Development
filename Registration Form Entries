@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Enteries</title>
+</head>
+<body>
+    <h1>Form Enteries</h1>
+    <form action="">
+        <fieldset>
+            <legend><h3>Registration</h3></legend>
+            <label for="">First Name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="">Last Name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="">Email ID</label>
+            <input type="text" id="email" name="email"><br><br>
+            <label for="email">Password:</label>
+            <input type="password" name="Password"><br><br>
+            <label for="">Gender:</label><br>
+            <input type="radio" name="Gender" value="Male">Male <br>
+            <input type="radio" name="Gender" value="Female">Female <br>
+            <input type="radio" name="Gender" value="Other">Other <br><br>
+            <label for="">Birthday</label>
+            <input type="date" name="Birthday" id="Birthday"><br><br>
+            <label for="">Parental Consent</label>
+            <select name="Answer" id="Answer">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+            <center>
+                <input type="submit" name="submit" value="submit">
+                <input type="reset" name="reset" value="reset">
+            </center>
+        </fieldset>
+    </form>
+</body>
+</html>
