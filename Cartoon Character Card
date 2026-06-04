@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartoon Character Card</title>
+    <link rel="stylesheet" href="CharacterCard.css">
+</head>
+<body>
+     <h1>My Cartoon Character Card</h1>
+     <h2>Meet my favorite cartoon character!</h2>
+     <p class="Gumball">Character Name: Gumball</p>
+     <p class="Gumball"> Best Friend: Darwin</p>
+     <p class="Gumball">He looks like a blue cat</p>
+     <figure>
+        <img src="gumball.webp" alt="A blue cat on the right and a orange fish with legs on the left">
+        <figcaption>Gumball on the right and Darwin on the left.</figcaption>
+     </figure>
+     <h2>Why I Like This Character:</h2>
+     <p class="Darwin">He's very funny and unrealistic.</p>
+     <p class="Darwin">He always manages to get himself into trouble then finding the most random solution to thae problem.</p>
+     <p class="Darwin">He shows lots of loyalty towards his friends and family</p>
+</body>
+</html>
