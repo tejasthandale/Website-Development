@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food and Nutrition Blog</title>
+</head>
+<body>
+    <Header>
+        <h1>Food and Nutrition Blog</h1>
+        <nav>
+            <a href="#Nutrition-Tips">Nutrition Tips</a> |
+            <a href="#Healthy-Recipes">Healthy Recipes</a> |
+            <a href="#Videos">Videos</a> |
+            <a href="#Contact">Contact</a>
+        </nav>
+    </Header>
+    <main>
+<Section id="Nutrition-Tips">
+    <h2>Building Good Nutrition Tips</h2>
+<article>
+<h3>Why Does it Matter</h3>
+<figure>
+    <img src="Nutritous Food.webp" alt="A plate filled with fruits and veggies" width="250" height="250">
+    <figcaption>
+        A nutritous meal consists of protien, fruits, veggies, and <b>lots</b> of water.
+    </figcaption>
+</figure>
+<p>
+    Having a nutritious meal matters because it gives your body the nutrients it needs to function properly. It improves growth and development in kids. Additionally, it provides energy kids need for physical activities like sports. Overall, a nutritious meal gives your body the fuel, building materials, and protective nutrients it needs to stay healthy, grow, learn, and perform at its best.
+
+</p>
+</article>
+<aside>
+    <div>
+<p>
+        <b>Gloria Swanson</b> - <mark><q>Your body is the direct result of what you eat as well as what you don't eat.</q></mark>
+    </p>
+    </div>
+</aside>
+</Section>
+<section id="Healthy-Recipes">
+    <article>
+        <h2>What are Some Healthy Recipes to Make</h2>
+        <figure>
+            <img src="Recipe Book .webp" alt="A recipe book" width="200" height="300">
+            <figcaption>
+                Recipes are the key to a good diet.
+            </figcaption>
+        </figure>
+        <p>
+            Some of the easiest things to make are: <br>
+            <ul>
+                <li>Mango Smoothies</li><br>
+                <li>Omelets</li><br>
+                <li>Chicken and Rice Bowls</li>
+            </ul>
+            
+        </p>
+    </article>
+    <aside>
+        <div>
+            <p>
+                Create nutritous and tasty cookings with <a href="www.allrecipes.com">Allrecipes</a>
+            </p>
+        </div>
+    </aside>
+    
+</section>
+<section id="Videos">
+<h2>Video on the Benefits of a Nutritous Meal</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xyQY8a-ng6g?si=aXRqHv8zI60NBmJs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</section>
+<section id="Contact">
+<h2>Contact the Blog Team</h2>
+<p><mark>Email</mark>: NutritionBlog@gmail.com</p>
+</section>
+
+    </main>
+    <footer>
+        <p>
+            &copy; 2026 USDA. All rights reserved.
+        </p>
+        <p>
+            Learn more at <a href="www.nutrition.gov">nutrition.gov</a>
+        </p>
+    </footer>
+</body>
+</html>
