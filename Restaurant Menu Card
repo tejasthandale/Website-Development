@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu Card</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        background-color: white;
+        color: rgb(203, 7, 7);
+        
+        
+    }
+    .title{
+        text-shadow: 4px 4px maroon;
+        font-weight:bolder;
+        font-size: 50px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: italic;
+        text-decoration: underline;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .slogan{
+        text-align: center;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+    .menu-card{
+        width: 400px;
+        border: 4px solid maroon;
+        border-radius: 20px;
+        background-image: linear-gradient(to bottom right, rgb(255, 174, 0), rgb(251, 255, 0));
+
+    }
+    .dish-description{
+        text-indent: 30px;
+        font-size: 12px;
+    }
+    .dish{
+        text-transform: capitalize;
+
+    }
+    .discount{
+ font-size: 22px;
+      font-weight: bold;
+      color: #ffffff;
+      background-color: #b22222;
+      text-align: center;
+      text-transform: uppercase;
+      text-shadow: 2px 2px 3px #000000;
+      box-shadow: 0 0 12px #b22222;
+      transform: rotate(-2deg);
+    }
+</style>
+<body>
+    <div class="menu-card">
+<h1 class="title">
+        In-N-Out
+    </h1>
+    <p class="slogan">
+        Quality you can taste.
+    </p>
+    <h2 class="dish">
+        Double-Double
+    </h2>
+    <p class="dish-description">
+Two juicy beef patties, melted cheese, fresh vegetables, and signature spread on a toasted bun.
+    </p>
+    <h2 class="dish">
+        Cheeseburger
+    </h2>
+     <p class="dish-description">
+Juicy beef patty with melted cheese, fresh toppings, and signature spread on a toasted bun.
+     </p>
+    <h2 class="dish">
+        Hamburger
+    </h2>
+     <p class="dish-description">
+Fresh beef patty topped with crisp vegetables and signature spread on a toasted bun.
+     </p>
+    <h2 class="dish">
+        French Fries
+    </h2>
+     <p class="dish-description">
+Freshly hand-cut potatoes, cooked until golden and crispy with delicious natural potato flavor.
+     </p>
+    <h2 class="dish">
+        Beverages
+    </h2>
+     <p class="dish-description">
+Refreshing soft drinks, lemonade, iced tea, coffee, milk, and creamy milkshakes for every meal.
+     </p>
+     <div class="discount">
+<p> 20% off  all combos!!!!</p>
+     </div>
+     
+    </div>
+
+
+    
+</body>
+</html>
