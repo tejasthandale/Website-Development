@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+        body{
+            background-color: antiquewhite; 
+            font-family:Arial, Helvetica, sans-serif ;
+            text-align: center;
+            padding: 30px;
+          }
+          h1{
+            color: black;
+          }
+          h1+p{background-color: orange;
+            border-radius: 8px;
+            padding: 10px 20px;
+            color: #dc0b00;
+            display: inline-block;
+
+
+          }
+          ul{
+            padding:0;
+            margin-top: 20px;
+          }
+          ul>li{
+        color:#dc0b00;
+        font-size: 18px;
+        font-weight: bold;
+        margin: 6px auto;
+        background-color: coral;
+        width: 250px;
+        list-style: none;
+        border-radius: 8px;
+          }
+          ul li:nth-child(3){
+            background-color: darkorange;
+            color: brown;
+          }
+          a{
+            background-color: orange;
+            border-radius: 6px;
+            font-size: 20px;
+            border: 2px solid orange;
+            text-decoration: none;
+            padding: 6px 8px;
+            margin: 0px 12px;
+          }
+          a:hover{
+            background-color: red;
+            color: white;
+          }
+          .desc::first-letter{
+            font-size: 220%;
+            color: darkorange;
+            font-weight: bold
+
+          }
+          .links{
+            margin-top: 25px;
+            
+          }
+    </style>
+</head>
+<body>
+    <h1>My Food Menu</h1>
+    <p>Pick Your Favorite Dish</p><br>
+    <ul>
+        <li>Pizza</li>
+        <li>Burgers</li>
+        <li>Tacos</li>
+        <li>Noodles</li>
+        <li>Ice Cream</li>
+    </ul>
+    <p class="desc">
+        Every dish on this menu is made with love and lots of flavor. Try them all and find your favorite! 
+    </p>
+    <div class="links">
+        <a href="#">Order Now</a>
+        <a href="#">See More</a>
+    </div>
+</body>
+</html>
