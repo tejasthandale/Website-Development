@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Zoo Rescue Tracker</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #b1dfae;
+      padding: 25px;
+      padding-top: 70px;
+      min-height: 1200px;
+    }
+
+    h1, h2 {
+      color: #2f500a;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .alert {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background: #2d6a4f;
+      color: white;
+      padding: 14px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .animal {
+      background: #d8f3dc;
+      border: 2px solid #000000;
+      padding: 10px;
+      margin: 8px 0;
+      width: 220px;
+      border-radius: 10px;
+    }
+
+    .moved {
+      position: relative;
+      left: 35px;
+      background: #95d5b2;
+    }
+
+    .card {
+      position: relative;
+      background: white;
+      border: 2px solid #050807;
+      border-radius: 10px;
+      padding: 25px;
+      width: 200px;
+      text-align: center;
+    }
+
+    .tag {
+      position: absolute;
+      top: -5px;
+      right: -9px;
+      background: #f77f00;
+      color: white;
+      padding: 6px 10px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    .zone {
+      position: sticky;
+      top: 50px;
+      background: #2d6a4f;
+      color: white;
+      padding: 10px;
+      margin-top: 25px;
+      font-weight: bold;
+    }
+
+    .case {
+      background: white;
+      border: 2px solid #52b788;
+      padding: 10px;
+      margin: 8px 0;
+      width: 230px;
+      border-radius: 8px;
+    }
+
+  
+  </style>
+</head>
+
+<body>
+
+  <div class="alert">Zoo Rescue Alert - Lion is Missing!!!</div>
+
+  <h1>Zoo Rescue Tracker</h1>
+  
+  <h2>Popular Animals</h2>
+ 
+  <div class="animal">Lion - Missing</div>
+  <div class="animal">Elephant - Water Park</div>
+  <div class="animal">Penguin - Ice Skating</div>
+
+  <h2>Boring Animals</h2>
+  
+  <div class="animal">Giraffe - Neck Therapy</div>
+  <div class="animal moved">Rescued Koala - Safe</div>
+  <div class="animal">Zebra - Feeding zone</div>
+
+  <h2>Latest Rescue</h2>
+  
+  <div class="card">
+    Koala<br>
+    Medical check complete
+    <div class="tag">Not so Safe</div>
+  </div>
+
+  <div class="zone">Rescue Zone Cases </div>
+
+  <div class="case">Monkey - Observation</div>
+  <div class="case">Lion - Missing</div>
+  <div class="case">Otter - Swimming</div>
+  <div class="case">Turtle - Shell treatment</div>
+  <div class="case">Rabbit - Carrot Heaven</div>
+  <div class="case">Flamingo - Flying Simulator</div>
+  <div class="case">Donkey - Watching Horse Videos</div>
+  <div class="case">Horse - Runnning Laps</div>
+
+</body>
+</html>
