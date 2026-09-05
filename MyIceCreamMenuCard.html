@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Ice Cream Shop Menu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f38004;
+      text-align: center;
+      color: #000000;
+    }
+    h1 {
+      color: #3032ac;
+      font-size: 36px;
+    }
+    h1 + p {
+      color: #24073e;
+      font-weight: bold;
+      background-color: #ae8afb;
+      border-radius: 0px;
+    }
+    .shop-description::first-letter {
+      font-size: 36px;
+      color: #000000;
+      font-weight: bold;
+    }
+   
+    .menu-box {
+      width: 420px;
+      background-color: white;
+      border: 3px solid #9e6e00;
+      border-radius: 15px;
+      margin: 20px auto;
+      padding: 20px;
+    }
+    ul {
+      padding: 0;
+    }
+    ul > li {
+      list-style: none;
+      background-color: #ffffff;
+      color: #c26c33;
+      font-size: 18px;
+      font-weight: bold;
+      margin: 10px;
+      padding: 12px;
+      border-radius: 5px;
+      border: 2px solid #df8e3d;
+    }
+    ul > li:nth-child(3) {
+      background-color: #fff3cd;
+      color: #b85c00;
+      border: 3px solid #ffa500;
+    }
+    ul > li:hover {
+      background-color: #ffc369;
+      color: white;
+      cursor: pointer;
+      transform: scale(1.05);
+    }
+    button {
+      background-color: #dd5435;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 12px 24px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    button:hover {
+      background-color: #8b640a;
+    }
+  </style>
+</head>
+<body>
+  <h1>My Ice Cream Shop Menu</h1>
+  <p>Welcome to T's Creamery</p>
+  <p class="shop-description">
+    We serve uinque and tasty ice creams
+  </p>
+  <div class="menu-box">
+    <h2>Today's Ice Cream Flavours</h2>
+    <ul>
+      <li>Strawberry Banana</li>
+      <li>Creamy Avacado</li>
+      <li>Rocky Mountain Landslide - Today's Special</li>
+      <li>Orange Dream</li>
+      <li>Blueberry Cheesecake</li>
+    </ul>
+    <button>Order Now</button>
+  </div>
+</body>
+</html>
