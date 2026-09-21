@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+
+href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>My Science Lab</title>
+<style>
+    body{
+        background: #daffdc;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+    .Jumbotron{
+        background-color: rgb(153, 255, 153);
+        border: 2px solid rgb(5, 129, 15);
+        color: rgb(211, 48, 48);;
+    }
+    .section-title{
+        font-weight: bold;
+        color: rgb(210, 42, 42);
+    }
+</style>
+</head>
+<body>
+    <div class="Jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1>My Science Lab</h1>
+            <p>Welcom to the lab! Here are the experiments running, the discoveries made, and how far each research project has come.</p>
+            <button class="btn btn-primary">Chemistry</button>
+             <button class="btn btn-success">Biology</button>
+              <button class="btn btn-warning">Physics</button>
+               <button class="btn btn-danger">Astronomy</button>
+
+        </div>
+
+    </div>
+    <div class="container">
+        <h2 class="section-title">Experiments Completed<span class="badge badge-primary">4</span></h2>
+        <p>Chemistry<span class="badge badge-primary">7</span></p>
+        <p>Biology<span class="badge badge-success">5</span></p>
+        <p>Physics<span class="badge badge-warning">3</span></p>
+        <p>Astronomy<span class="badge badge-danger">4</span></p>
+
+    </div>
+    <h2 class="section-title">Reseach Progress</h2>
+    <p>Chemistry</p>
+    <div class="progress mb-3">
+<div class="progress-bar bg-primary" style="width: 85%;">85%</div>
+    </div>
+    <p>Biology</p>
+    <div class="progress mb-3">
+        <div class="progress-bar bg-success" style="width: 70%;">70%</div>
+
+    </div>
+    <p>Physics</p>
+    <div class="progress mb-3">
+        <div class="progress-bar bg-warning" style="width: 55%;">55%</div>
+
+    </div>
+    <p>Astronomy</p>
+    <div class="progress mb-3">
+        <div class="progress-bar bg-danger" style="width: 42%;">42%</div>
+
+    </div>
+</body>
+</html>
